@@ -29,7 +29,7 @@ AC_PATH_PROG([PYLINT], [pylint], [:])
 AC_ARG_VAR([PYLINT], [path to pylint])
 
 # xml2rfc
-AC_PATH_PROG([XML2RFC], [xml2rfc], [false])
+AC_PATH_PROG([XML2RFC], [xml2rfc], ['/usr/local/bin/xml2rfc'])
 AC_ARG_VAR([XML2RFC], [path to xml2rfc])
 
 LT_INIT()
